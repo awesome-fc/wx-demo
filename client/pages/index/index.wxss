@@ -1,0 +1,133 @@
+/**index.wxss**/
+Page{
+  background:#f3f5fa;
+  font-family:'PingFang SC Medium',  "微软雅黑";
+}
+
+.HotMoney_box{
+  overflow: hidden;
+  width:710rpx;
+  margin:0 auto;
+}
+.watchword{
+  /* overflow: hidden; */
+  width:710rpx;
+  /* height:534rpx; */
+  background:#fff;
+  position:relative; 
+  margin-top: -20rpx;
+  padding-bottom:60rpx;
+}
+.header{
+  width:110rpx;
+  height:110rpx;
+  margin:0 auto;
+  margin-top:-75rpx;
+  border-radius:50%;
+  position:absolute;
+  top:0;
+  left:50%;
+  margin-left:-55rpx;
+  z-index:99;
+}
+.header_size{
+  width:110rpx;
+  border-radius:50%;
+  border:2px solid #fff;
+}
+.setHotMoney{
+  padding:0 55rpx;
+  width:600rpx;
+  /* overflow: hidden; */
+  padding-top:70rpx;
+}
+
+.shuoming{
+  height:50rpx;
+  line-height: 50rpx;
+  font-size:24rpx;
+  color:#999;
+}
+.server{
+  width:600rpx;
+  height:100rpx;
+  line-height: 100rpx;
+  color:#999;
+  text-align: center;
+  font-size:30rpx;
+}
+.VoiceBtn{
+  width:600rpx;
+  height:70rpx;
+  background: #e73b58;
+  border-radius:35rpx;
+  font-size:28rpx;
+  line-height: 70rpx;
+  color:#fff;
+  text-align: center;
+}
+
+.setHotMoney_detail{
+  height:120rpx;
+  line-height:120rpx;
+  font-weight:bold;
+  font-size:28rpx;
+  margin-top:15rpx;
+}
+.hotInput{
+  width:400rpx;
+  border-bottom:1px solid #ccc;
+  margin-left:150rpx;
+  margin-top:-85rpx;
+}
+
+.answer{
+  width:350rpx;
+  border-bottom:1rpx solid #ccc;
+  font-size:22rpx;
+  color:#999;
+}
+
+.speaker{ 
+    position: fixed; 
+    left: 50%;
+    top: 50%;
+    margin-top: -50px;
+    margin-left: -50px;
+    width: 30%;
+    height: 20%;
+    background:#000;
+    opacity: 0.6;
+    z-index:99999;
+    border-radius:20rpx;
+} 
+
+/*底部导航  */
+.footer{
+  width:750rpx;
+  height:140rpx;
+  display: flex;
+  justify-content: space-around;
+  background: #fff;
+  position:fixed;
+  bottom:0rpx;
+}
+
+.footer_tab{
+  width:180rpx;
+  height:120rpx;
+}
+
+.footer_img{
+  width:60rpx;
+  margin:0 auto;
+  margin-left:60rpx;
+  margin-top:10rpx;
+}
+
+.tabName{
+  width:180rpx;
+  height:40rpx;
+  line-height: 40rpx;
+  text-align: center;
+}

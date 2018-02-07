@@ -1,0 +1,13 @@
+Metadata-Version: 1.1
+Name: python-weixin
+Version: 0.3.0
+Summary: Python Weixin API client support wechat-app
+Home-page: https://github.com/gusibi/python-weixin
+Author: gusibi
+Author-email: cacique1103@gmail.com
+License: BSD
+Download-URL: https://github.com/gusibi/python-weixin/archive/master.zip
+Description-Content-Type: UNKNOWN
+Description: UNKNOWN
+Keywords: python-weixin,weixin,wechat,sdk,weapp,wxapp
+Platform: UNKNOWN

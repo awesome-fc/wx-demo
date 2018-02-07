@@ -1,0 +1,46 @@
+<!--index.wxml-->
+<view class="container">
+    <view class='watchword' style="">
+        <view class='header'>
+            <image src='{{userInfo.avatarUrl}}' mode='widthFix' class='header_size'></image>
+        </view>
+        <view class="setHotMoney">
+            <form bindsubmit="fromSubmit" bindreset="fromReset" report-submit='true'>
+                <!--口令红包  -->
+                <view class='setHotMoney_detail' style="display:block">
+                    <view class='setHotMoney_name1 fl'>设置口令</view>
+                    <input type='text' placeholder='谢谢老板' class='hotInput fr' bindinput='koulingInput' name="packtext" bindblur='koulingInputBlur'></input>
+                </view>
+                <view class='shuoming'>小伙伴们说对口令就能获得随机彩蛋</view>
+                <view class='setHotMoney_detail'>
+                    <view class='setHotMoney_name fl'>赏金（元）</view>
+                    <input type='digit' placeholder='填写金额' class='hotInput fr' bindinput='MoneyInput' name="money" value='{{Money}}'></input>
+                </view>
+                 <view class='setHotMoney_detail'>
+                    <view class='setHotMoney_name fl'>数量（个）</view>
+                    <input type='number' placeholder='填写数量' class='hotInput fr' bindinput='NumberInput' name="count" value='{{Number}}'></input>
+                </view> 
+
+                <!-- <view class="server">需支付￥{{balance.cash_service_charge/100}}服务费,优先使用余额￥{{balance.balance/100}}</view>  -->
+
+                <button class='VoiceBtn' form-type="submit" bindsubmit="fromSubmit">生成语音口令</button>
+            </form>
+        </view>
+    </view>
+</view>
+<image class="speaker" hidden="{{!isSpeaking}}" src="{{speakerUrl}}"></image>
+<!--底部导航栏  -->
+<view class='footer'>
+     <view class='footer_tab' bindtap='tomyRecord'>
+        <image src='../image/10.png' mode='widthFix' class='footer_img'></image>
+        <view class='tabName'>我的记录</view>
+    </view>
+    <view class='footer_tab' bindtap='totixian'>
+        <image src='../image/20.png' mode='widthFix' class='footer_img'></image>
+        <view class='tabName'>余额提现</view>
+    </view>
+    <view class='footer_tab' bindtap='toQuestion'>
+        <image src='../image/30.png' mode='widthFix' class='footer_img'></image>
+        <view class='tabName'>常见问题</view>
+    </view>  
+</view>

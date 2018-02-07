@@ -1,0 +1,58 @@
+/* pages/index/Share/ShareHotMoney.wxss */
+@import '../../../style/font.wxss';
+
+.topBox{
+  /* background:#e73b58; */
+  padding:0 30rpx;
+}
+.con{
+  overflow: hidden;
+  background: #f1f3f6;
+}
+.header_logo{
+  border-radius:15rpx;
+}
+.share_box{
+  width:100rpx;
+  display: flex;
+  justify-content: space-around;
+}
+.btn_Btn{
+  width:625rpx;
+  height:80rpx;
+  text-align:center;
+  line-height: 80rpx;
+  font-size:28rpx;
+  background:#31bd48;
+  color:#fff;
+  margin:15rpx auto;
+  border-radius:15rpx;
+}
+.con{
+  overflow: hidden;
+  background: #d6344f;
+}
+.share-share_box{
+  width:690rpx;
+  margin-left:30rpx;
+  display: flex;
+  justify-content: space-around;
+}
+.share-kouling{
+  width:690rpx;
+  height:60rpx;
+  line-height: 60rpx;
+  font-size:30rpx;
+  color:#fde2b3;
+  text-align: center;
+}
+.share-yuyin{
+  width:690rpx;
+  height:136rpx;
+  line-height:136rpx;
+  font-size:48rpx;
+  color:#fde2b3;
+  display: flex;
+  justify-content: space-around;
+  vertical-align: middle;
+}

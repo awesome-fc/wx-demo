@@ -1,0 +1,15 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/index/Share/share",
+    "pages/index/getHb/getHb"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#e73b58",
+    "navigationBarTitleText": "语音口令",
+    "navigationBarTextStyle": "#fff",
+    "enablePullDownRefresh": false
+  }
+}

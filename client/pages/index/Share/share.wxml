@@ -1,0 +1,27 @@
+<!--pages/index/Share/ShareHotMoney.wxml-->
+<view class='container'>
+    <!--分享到朋友圈  分享到朋友的页面  -->
+    <view class='con' style="display:block">
+        <view style="background:url('../../image/bg.png') no-repeat; background-size:750rpx 630rpx">
+            <view class='share-share_box'>
+                <image src='{{userInfo.avatarUrl}}' mode='widthFix' style='width:120rpx;margin-top:20rpx' class='header_logo'></image>
+            </view>
+            <view class="share-share_box">
+                <view class='share-kouling'>发了一个语音口令:
+                <image src='../../image/money.png' mode='widthFix' style='width:28rpx;margin-top:30rpx;margin-bottom:-6rpx;'></image></view>
+            </view>
+            <view class="share-share_box">
+                <view class='share-yuyin' style="display:flex">{{options.kouling}}</view>
+            </view>
+             <view class='share-share_box'>
+                <image src='../../image/21.png' mode='widthFix' style='width:200rpx;height:200rpx;margin-top:15rpx;margin-bottom:5rpx;' class='header_logo'></image>
+            </view>
+        </view>
+
+        <view class='share-share_box' style="margin-top:15rpx;margin-bottom:15rpx;">
+           <button  class='btn_Btn' open-type="share">转发到好友或着群里</button >
+        </view>
+
+    </view>
+   
+</view>
